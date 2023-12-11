@@ -5,12 +5,13 @@ A `whoami` but quotes from [Stephen Levine](https://en.wikipedia.org/wiki/Stephe
 ## Quickstart
 
 Web enabled
-* todo
+
+* `curl -s https://raw.githubusercontent.com/diego-ponce/whodies/main/whodies.txt | shuf -n 1`
 
 Running locally
 
-* download whodies.txt (e.g. `curl ... > ~/whodies.txt`)
-* run `alias whodies="cat <path/to/text> | shuf -n 1"` (or add to your `.bashrc` for persistence on your terminal)
+* download whodies.txt (e.g. `curl https://raw.githubusercontent.com/diego-ponce/whodies/main/whodies.txt > ~/whodies.txt`) (or choose a path for the file)
+* run `alias whodies="cat ~/whodies.txt | shuf -n 1"` (or add to your `.bashrc` for persistence on your terminal)
 
 ## Do it yourself
 
